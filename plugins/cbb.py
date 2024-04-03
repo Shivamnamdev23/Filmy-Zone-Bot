@@ -19,10 +19,10 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>My Name : <a href='https://t.me/OTT_Provider_Bot'> OTT Provider Bot </a> \n📢 My Channel : <a href='https://t.me/OTTProvider'>OTT_Provider</a> \n😎 My Owner : <a href='t.me/OTTProviderBackup'> ⏤͟͞𝗦𝗛𝗜𝗕𝗔𝗠 » 𝗦𝗔𝗛∆ </a>\n🧑‍💻 Developer : <a href='t.me/Crazybotz'> Crazy </a></b>",
+            text = f"<b>OUR PUBLIC BOT : <a href='https://t.me/File_Store4_Bot'> file share bot </a> \n📢 My Channel : <a href='https://t.me/snfilmy'>Public Channel</a> \n😎 My Owner : <a href='t.me/Crazybotz'> Crazy </a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
-                [ [ InlineKeyboardButton("Official Channel", url="https://t.me/OTTProvider") ],
+                [ [ InlineKeyboardButton("Official Channel", url="https://t.me/snfilmy") ],
                     [
                         InlineKeyboardButton("🔒 Close", callback_data = "close")
                     ]
