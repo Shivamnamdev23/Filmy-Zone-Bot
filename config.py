@@ -2,16 +2,16 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6972813519:AAHHd_Aqf0Cn83Vy4c025c0Sb8zTL5lUy2c")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6993590281:AAEzOhfLpiMWDsXkXSGO2lHnhQyhoeAPD_E")
 APP_ID = int(os.environ.get("APP_ID", "27499182"))
 API_HASH = os.environ.get("API_HASH", "9c58142ef6abed28808a50e3e983c39c")
-FSUB_CHANNEL = int(os.environ.get("FSUB_CHANNEL", "-1001547923033"))
+FSUB_CHANNEL = int(os.environ.get("FSUB_CHANNEL", "-1002039261597"))
 OWNER = os.environ.get("OWNER", "") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "2125935188"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://FilesharingBot:FilesharingBot@cluster0.r6bvmvj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://FilmyZone:FilmyZone@cluster0.bbyxvge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001885519781"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002063229463"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001547923033"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
