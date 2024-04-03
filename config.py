@@ -12,7 +12,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://FilmyZone:FilmyZone@cluster0.bb
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002063229463"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001547923033"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
