@@ -7,7 +7,7 @@ APP_ID = int(os.environ.get("APP_ID", "27499182"))
 API_HASH = os.environ.get("API_HASH", "9c58142ef6abed28808a50e3e983c39c")
 FSUB_CHANNEL = int(os.environ.get("FSUB_CHANNEL", "-1002039261597"))
 OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "2125935188"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6249148586"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://FilmyZone:FilmyZone@cluster0.bbyxvge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
